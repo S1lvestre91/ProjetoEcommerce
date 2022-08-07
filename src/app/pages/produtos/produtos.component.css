@@ -1,0 +1,36 @@
+.Conteudo{
+    margin: 0 auto;
+    width: 90vw;
+}
+.Car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ .title-cont > h1{
+    font-size: 2.5em;
+    display: inline-block;
+    margin: 2em 0;
+    border-bottom: 2px solid black;
+    
+}
+.banner > img{
+    margin-top: 2em;
+    height: 77vh;
+    width: 90vw;
+}
+app-card{
+    display: contents;
+    
+}
+.Cards{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 1.5em;
+    
+}

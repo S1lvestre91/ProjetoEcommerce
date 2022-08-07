@@ -1,0 +1,40 @@
+.card{
+   
+    width: 15em;
+    height: 26em;
+   
+}
+.card-body{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+   
+    
+}
+.card-body:hover{
+    border-top: 2px solid black;
+}
+img{
+    transform: scale(1,1);
+    -ms-transform: (1,1);
+    width: 15em;
+    height: 15em;
+}
+img:hover{
+    transform: scale(1.5,1.5);
+    -ms-transform: (1.5,1.5);
+}
+.btn{
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 0.5em;
+    border-radius: 1em;
+    background-color: rgb(16, 49, 49);
+    padding: 0.5em 1em;
+}
+.btn:hover{
+    background-color: rgb(70, 139, 139);
+}

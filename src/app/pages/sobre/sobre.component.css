@@ -1,0 +1,22 @@
+.sobre{
+    margin: 0 auto;
+    width: 60vw;
+}
+.i-empresa{
+    margin-top: 4em;
+}
+.i-empresa > h1{
+    margin-bottom: 0.5em;
+}
+p{
+    padding: 0.5em 0;
+    text-indent: 5%;
+    text-align: justify;
+    line-height: 1.5em;
+}
+h2{
+    margin-bottom: 0.5em;
+}
+.missao{
+    margin-bottom: 4em;
+}

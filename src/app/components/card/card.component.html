@@ -1,0 +1,10 @@
+<div class="card" *ngFor="let produto of bones">
+    
+    <div class="card-body" >
+      <img src="{{produto.img}}">
+      <h2 class="card-title">{{produto.bone}}</h2>
+      <p class="card-text">Descrição: {{produto.descricao}}</p>
+      <p class="card-text"> R$ {{produto.preco}}</p>
+      <a href="#" class="btn">Comprar</a>
+    </div>
+</div>
